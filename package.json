@@ -1,0 +1,29 @@
+{
+  "name": "lib-boilerplate",
+  "version": "0.0.1",
+  "description": "lib-boilerplate ===============",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaddockh/lib-boilerplate.git"
+  },
+  "author": "T. Shaddock Heath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaddockh/lib-boilerplate/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "should": "latest",
+    "grunt-jsbeautifier": "~0.2.6",
+    "matchdep": "~0.3.0",
+    "grunt-mocha-test": "~0.8.1"
+  }
+}
